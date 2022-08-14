@@ -2,6 +2,10 @@
 
 > 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
 
+# 頁面
+
+- [頁面](https://peterchen-jianrong.github.io/tailwind3-2022-week5/#/)
+
 ## 指令列表
 
 - `gulp` - 執行開發模式(會開啟模擬瀏覽器並監聽相關檔案)
