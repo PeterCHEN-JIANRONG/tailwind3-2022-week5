@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>首頁</title>
+  <title>ANSWER - Admin</title>
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,26 +18,337 @@
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+
+  
+
+
+  <div class="container">
+    <div class="flex">
+      <aside id="sidebar" class="w-1/4 h-screen bg-gray-100 p-8">
+        <div class="h-full flex flex-col justify-between">
+          <div>
+            <h1 class="mb-8">
+              <a href="#" class="block h-10 w-[150px] bg-[url('../images/logo-ANSWER.svg')] bg-contain bg-center bg-no-repeat indent-[101%] overflow-hidden whitespace-nowrap">
+                ANSWER
+              </a>
+            </h1>
+            <nav class="menu">
+              <ul class="flex flex-col -my-3">
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      insert_chart
+                    </span>
+                    <h2 class="font-bold">Dashboard</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      forum
+                    </span>
+                    <h2 class="font-bold">Question</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      assignment
+                    </span>
+                    <h2 class="font-bold">Assignment</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      video_library
+                    </span>
+                    <h2 class="font-bold">Course</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      group
+                    </span>
+                    <h2 class="font-bold">Admin</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      settings
+                    </span>
+                    <h2 class="font-bold">Settings</h2>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-4">
+            <a href="#">
+              <img class="h-10 w-10 object-cover rounded-full" src="./assets/images/andychen.jpeg" alt="andychen">
+            </a>
+            <div>
+              <h3 class="font-bold">Andy Chen</h3>
+              <p class="text-sm text-gray-600">andy0401@mail.com</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="w-3/4">
+        
+<section>
+  <header class="flex justify-between items-center p-8">
+    <div class="flex items-center gap-12">
+      <h2 class="text-2xl font-bold">Admin</h2>
+      <a href="#" class="flex gap-2">
+        <span class="material-symbols-outlined text-primary">
+          add
+        </span>
+        <h3 class="font-bold">Add New Admin</h3>
+      </a>
+    </div>
+    <div class="flex items-center gap-6">
+      <a href="#" class="flex">
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </a>
+      <a href="#" class="flex">
+        <span class="material-symbols-outlined">
+          notifications_active
+        </span>
+      </a>
+    </div>
   </header>
+  <div class="p-8">
+    <table class="w-full">
+      <thead class="text-left border-b border-gray-900">
+        <tr>
+          <th class="w-[15%]">
+            <div class="flex items-center gap-1">
+              ID
+              <span class="material-symbols-outlined font-settings-bold text-xl text-primary">
+                arrow_downward
+              </span>
+            </div>
+          </th>
+          <th class="w-[25%]">Name</th>
+          <th class="w-[30%]">Email</th>
+          <th class="w-[15%]">Verified</th>
+          <th class="w-[15%]"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#1</td>
+          <td>Emir Wicks</td>
+          <td>emir.wicks@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#2</td>
+          <td>Zaina Goldsmith</td>
+          <td>zaina.goldsmith@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#3</td>
+          <td>Mahima Lopez</td>
+          <td>mahima.lopez@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#4</td>
+          <td>Pharrell Murray</td>
+          <td>pharrell.murray@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#5</td>
+          <td>Annika Mcbride</td>
+          <td>annika.mcbride@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#6</td>
+          <td>Fatimah Clark</td>
+          <td>fatimah.clark@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#7</td>
+          <td>Klaudia Rhodes</td>
+          <td>klaudia.rhodes@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#8</td>
+          <td>Tillie Lucero</td>
+          <td>tillie.lucero@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#9</td>
+          <td>Sabrina Stephenson</td>
+          <td>sabrina.stephenson@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="h-[55px] border-b border-gray-400 hover:bg-gray-100">
+          <td>#10</td>
+          <td>Annie Smith</td>
+          <td>annie.smith@mail.com</td>
+          <td>Yes</td>
+          <td>
+            <div class="flex items-center justify-end gap-6">
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </a>
+              <a href="#" class="flex">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+      </main>
+    </div>
+  </div>
 
-  <main>
-    
-<p class="text-3xl font-bold underline">This is a demo.</p>
-<p class="text-4xl font-lato">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, voluptates?</p>
-<p class="text-4xl font-roboto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, voluptates?</p>
-<div class="h-10 w-10 bg-primary"></div>
-<div class="h-10 w-10 bg-gray-100"></div>
-<div class="h-10 w-10 bg-gray-400"></div>
-<div class="h-10 w-10 bg-gray-600"></div>
-<div class="h-10 w-10 bg-gray-900"></div>
-
-  </main>
-
-  <footer class="footer">
-    footer
-  </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
   <script src="./assets/js/all.js"></script>
