@@ -18,17 +18,90 @@
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-  </header>
 
-  <main>
-    <%- contents %>
-  </main>
+  
 
-  <footer class="footer">
-    footer
-  </footer>
+
+  <div class="container">
+    <div class="flex">
+      <aside id="sidebar" class="w-1/4 h-screen bg-gray-100 p-8">
+        <div class="h-full flex flex-col justify-between">
+          <div>
+            <h1 class="mb-8">
+              <a href="#" class="block h-10 w-[150px] bg-[url('../images/logo-ANSWER.svg')] bg-contain bg-center bg-no-repeat indent-[101%] overflow-hidden whitespace-nowrap">
+                ANSWER
+              </a>
+            </h1>
+            <nav class="menu">
+              <ul class="flex flex-col -my-3">
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      insert_chart
+                    </span>
+                    <h2 class="font-bold">Dashboard</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      forum
+                    </span>
+                    <h2 class="font-bold">Question</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      assignment
+                    </span>
+                    <h2 class="font-bold">Assignment</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      video_library
+                    </span>
+                    <h2 class="font-bold">Course</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      group
+                    </span>
+                    <h2 class="font-bold">Admin</h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-4 py-3 hover:text-primary focus:text-primary">
+                    <span class="material-symbols-outlined">
+                      settings
+                    </span>
+                    <h2 class="font-bold">Settings</h2>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-4">
+            <a href="#">
+              <img class="h-10 w-10 object-cover rounded-full" src="./assets/images/andychen.jpeg" alt="andychen">
+            </a>
+            <div>
+              <h3 class="font-bold">Andy Chen</h3>
+              <p class="text-sm text-gray-600">andy0401@mail.com</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="w-3/4">
+        <%- contents %>
+      </main>
+    </div>
+  </div>
+
   <script src="./assets/js/vendors.js"></script>
   <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
   <script src="./assets/js/all.js"></script>
