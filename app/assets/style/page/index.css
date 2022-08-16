@@ -1,0 +1,30 @@
+
+.menu .menu__link {
+  position: relative;
+}
+
+.menu .menu__link:hover::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  transform: translateY(-50%);
+  left: -32px;
+  height: 32px;
+  width: 4px;
+  background: #198754;
+}
+
+.menu .menu__item.active .menu__link {
+  color: #198754;
+}
+
+.menu .menu__item.active .menu__link::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  transform: translateY(-50%);
+  left: -32px;
+  height: 32px;
+  width: 4px;
+  background: #198754;
+}
