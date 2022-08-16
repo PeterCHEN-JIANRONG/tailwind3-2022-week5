@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'class',
   content: ["./app/**/*.{html,ejs}"],
   theme: {
     container: {
@@ -7,7 +8,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#198754',
+        primary: {
+          DEFAULT:'#198754',
+          light: '#1fa366',
+        },
         gray: {
           100: '#F8F9FA',
           400: '#CED4DA',

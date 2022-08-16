@@ -1,0 +1,17 @@
+
+/* user-modal */
+#user-modal .modal-options {
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-top: 0;
+  max-height: 0;
+}
+
+#user-modal .modal-options.active {
+  margin-top: 32px;
+  max-height: 100%;
+}
+
+#user-modal .modal-switch.active .icon {
+  transform: rotate(180deg);
+}

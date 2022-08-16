@@ -16,4 +16,13 @@ $(document).ready(() => {
     $(".pagination .page").removeClass("active");
     $(this).addClass("active");
   });
+
+
+  // modal switch open
+  $("#user-modal .modal-switch").click(function (e) {
+    e.preventDefault();
+    $("#user-modal .modal-switch").toggleClass("active");
+    $("#user-modal .modal-options").toggleClass("active");
+
+  });
 });
