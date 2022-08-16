@@ -1057,7 +1057,7 @@ select {
 .font-settings-bold {
     font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
   }
-/* page style */
+/* layout */
 .menu .menu__link {
   position: relative;
 }
