@@ -2,8 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* page style */
-@import './page/index.css';
+/* layout */
+@import './layout/navMenu.css';
 
 /* component */
 @import './component/pagination.css';
