@@ -10,7 +10,7 @@ $(document).ready(() => {
     $(this).addClass("active");
   });
 
-  // menu__item add .active
+  // pagination add .active
   $(".pagination .page").click(function (e) {
     e.preventDefault();
     $(".pagination .page").removeClass("active");
@@ -18,11 +18,10 @@ $(document).ready(() => {
   });
 
 
-  // modal switch open
+  // user-modal switch open
   $("#user-modal .modal-switch").click(function (e) {
     e.preventDefault();
     $("#user-modal .modal-switch").toggleClass("active");
     $("#user-modal .modal-options").toggleClass("active");
-
   });
 });
