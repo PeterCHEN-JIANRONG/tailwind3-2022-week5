@@ -11,6 +11,8 @@
 /* page style */
 @import './page/index.css';
 
+/* component */
+@import './component/pagination.css';
 
 /* 自訂 base */
 @layer base {

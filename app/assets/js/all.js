@@ -9,4 +9,11 @@ $(document).ready(() => {
     $(".menu .menu__item").removeClass("active");
     $(this).addClass("active");
   });
+
+  // menu__item add .active
+  $(".pagination .page").click(function (e) {
+    e.preventDefault();
+    $(".pagination .page").removeClass("active");
+    $(this).addClass("active");
+  });
 });
